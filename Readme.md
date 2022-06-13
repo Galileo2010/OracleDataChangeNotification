@@ -27,6 +27,8 @@ Commit complete.
 
 SQL> create table book(id number(10) primary key, name varchar2(128) not null);
 
+select * from user_change_notification_regs;
+
 Table created.
 SQL> insert into book values(1, 'sdfsfdsf');
 ```
@@ -35,3 +37,6 @@ SQL> insert into book values(1, 'sdfsfdsf');
 https://docs.oracle.com/cd/E11882_01/java.112/e16548/dbchgnf.htm#JJDBC28818
 
 需要关注参数设置
+
+### 验证截图
+![screenshot](./screenshoot.PNG)
